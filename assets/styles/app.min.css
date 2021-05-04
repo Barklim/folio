@@ -770,6 +770,12 @@ table {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+.portfolio-title__date {
+  color: #888;
+  display: block;
+  text-align: end;
+  padding: 10px 6px 0 0;
+}
 .portfolio-title__buttons a {
   padding: 10px 15px;
   background: 0 0;
