@@ -779,7 +779,12 @@ table {
   display: block;
   padding: 10px 6px 0 0;
 }
-.portfolio-title__store,
+.portfolio-title__store {
+  height: 38px;
+  top: 14px;
+  position: relative;
+  padding: 4px;
+}
 .portfolio-title__play {
   height: 38px;
   top: 14px;
@@ -803,7 +808,10 @@ table {
   .portfolio-title__buttons {
     text-align: end;
   }
-  .portfolio-title__store, 
+  .portfolio-title__store{
+    height: 22px;
+    top: 5px;    
+  }
   .portfolio-title__play {
     height: 22px;
     top: 5px;
@@ -811,7 +819,9 @@ table {
   .portfolio-title__img-offpadding {
     padding: 0 !important;
   }
-  .portfolio-title__store, 
+  .portfolio-title__store{
+    height: 28px;    
+  } 
   .portfolio-title__play {
     height: 28px;
   }
