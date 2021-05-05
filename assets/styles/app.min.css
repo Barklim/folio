@@ -768,14 +768,55 @@ table {
   -ms-flex: 1;
       flex: 1;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
+}
+
+.portfolio-title__wrapper {
+  flex: 1;
 }
 .portfolio-title__date {
   color: #888;
   display: block;
-  text-align: end;
   padding: 10px 6px 0 0;
 }
+.portfolio-title__store,
+.portfolio-title__play {
+  height: 38px;
+  top: 14px;
+  position: relative;
+  padding: 4px;
+}
+.portfolio-title__buttons .portfolio-title__store:hover {
+  content: url('../img/appStoreWhite.png') !important;
+}
+.portfolio-title__buttons .portfolio-title__play:hover {
+  content: url('../img/googlePlayWhite.png') !important;
+}
+.portfolio-title__img-offpadding {
+  padding: 10px 0 !important;
+}
+@media screen and (max-width: 500px) {
+  .portfolio-title__buttons a {
+    display: inline-block;
+    margin-top: 8px !important;
+  }
+  .portfolio-title__buttons {
+    text-align: end;
+  }
+  .portfolio-title__store, 
+  .portfolio-title__play {
+    height: 22px;
+    top: 5px;
+  }
+  .portfolio-title__img-offpadding {
+    padding: 0 !important;
+  }
+  .portfolio-title__store, 
+  .portfolio-title__play {
+    height: 28px;
+  }
+}
+
 .portfolio-title__buttons a {
   padding: 10px 15px;
   background: 0 0;
