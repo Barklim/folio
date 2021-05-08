@@ -826,6 +826,9 @@ table {
     height: 28px;
   }
 }
+.social__trello {
+  height: 30px;
+}
 
 .portfolio-title__buttons a {
   padding: 10px 15px;
