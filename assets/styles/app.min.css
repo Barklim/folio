@@ -746,6 +746,28 @@ table {
   right: 0.5%;
   z-index: 3;
 }
+
+.portfolio-item__img_1 {
+  width: 18%;
+  left: 0.5%;
+  z-index: 3;
+}
+.portfolio-item__img_2 {
+  width: 18%;
+  left: 28%;
+  z-index: 3;
+}
+.portfolio-item__img_3 {
+  width: 18%;
+  right: 28%;
+  z-index: 3;
+}
+.portfolio-item__img_4 {
+  width: 18%;
+  right: 0.5%;
+  z-index: 3;
+}
+
 .portfolio-item__img_sm:after {
   padding-top: 145%;
 }
@@ -828,6 +850,91 @@ table {
 }
 .social__trello {
   height: 30px;
+}
+.footer {
+  display: block;
+  /* background-color: #2f4f4f; */
+  background-image: url(../img/bg/bg-educ.jpg) !important;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.swiper-container {
+/*  width: 600px;
+  height: 300px;*/
+  width: 100%;
+  height: 300px;
+  background: white;
+}
+.modal { 
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  padding-top: 2vh;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+  margin: auto;
+  padding: 20px;
+  width: 98%;
+}
+.close {
+  color: #aaaaaa;
+  font-size: 60px;
+  font-weight: bold;
+  width: 4%;
+  position: fixed;
+  /*right: 4%;*/
+  right: 2%;
+  top: 3%;
+  z-index: 1001;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+:root {
+    --swiper-theme-color: #cc7878 !important;
+}
+.slideImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: .5px solid rgba(0,0,0,.1);
+  height: calc(90vh - 20px);
+  margin: 20px auto !important; 
+}
+.swiper-section {
+  height: 90vh;
+}
+@media screen and (max-width: 800px) {
+  .modal {
+    padding-top: 0;
+  }
+  .modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 100%;
+  }
+  .close {
+    width: 4%;
+    right: 6%;
+    top: 0%;
+  }
+  .swiper-section {
+    height: 94vh;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .close {
+    right: 4%;
+  }
 }
 
 .portfolio-title__buttons a {

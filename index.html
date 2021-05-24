@@ -40,12 +40,17 @@
 		<meta name="msapplication-square150x150logo" content="/mstile-medium.png">
 		<meta name="msapplication-wide310x150logo" content="/mstile-wide.png">
 		<meta name="msapplication-square310x310logo" content="/mstile-large.png">
-		<title>Kliment Barkalov Portfolio</title>
+		<title>Barkalov Portfolio</title>
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 		<link rel="subresource" href="assets/img/bg-header.jpg">
 		<link rel="preload" href="assets/fonts/RalewayBold/RalewayBold.woff" as="font" type="font/woff" crossorigin>
 		<link href="assets/styles/app.min.css" rel="stylesheet">
+		<!-- swiper -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+		<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	</head>
 
 	<body class="page">
@@ -76,9 +81,6 @@
 								</li>
 								<li class="menubtn__str">
 									<a href="#resume" class="menubtn__item">resume</a>
-								</li>
-								<li class="menubtn__str">
-									<a href="#skills" class="menubtn__item">skills</a>
 								</li>
 								<li class="menubtn__str">
 									<a href="#portfolio" class="menubtn__item">portfolio</a>
@@ -259,17 +261,7 @@
 					<img src="assets/img/download.svg" alt="download" class="resume__icon" title="" />
 				</a>
 			</div>
-			<div id="skills" class="skills">
-				<div class="section">
-					<div class="skills__descr skills__descr_dark">
-						<h2 class="skills__title">Skills</h2>
-						<div class="skills__text"> KNOWLEDGE</div>
-					</div>
-					<div class="section__wrapp">
-						<div id="tagcloud" class="tagcloud"></div>
-					</div>
-				</div>
-			</div>
+
 			<div id="portfolio" class="portfolio">
 				<div class="section">
 					<div class="skills__descr skills__descr_light">
@@ -279,23 +271,29 @@
 
 					<div class="portfolio-item">
 						<div class="portfolio-item__wrapper">
-							<div class="portfolio-item__screenshots">
+							<div id="screenshots-aptekamos" class="portfolio-item__screenshots">
 								<picture>
-									<source type="image/webp" srcset="assets/img/insight/insightlg.webp" />
-									<source type="image/png" srcset="assets/img/insight/insightlg.png" />
-									<img src="assets/img/insight/insightlg.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_lg"
+									<source type="image/webp" srcset="assets/img/aptekamos/aptekamos1.webp" />
+									<source type="image/png" srcset="assets/img/aptekamos/aptekamos1.png" />
+									<img src="assets/img/aptekamos/aptekamos1.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_1"
 									 title="" />
 								</picture>
 								<picture>
-									<source type="image/webp" srcset="assets/img/insight/insightmd.webp" />
-									<source type="image/png" srcset="assets/img/insight/insightmd.png" />
-									<img src="assets/img/insight/insightmd.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_md"
+									<source type="image/webp" srcset="assets/img/aptekamos/aptekamos2.webp" />
+									<source type="image/png" srcset="assets/img/aptekamos/aptekamos2.png" />
+									<img src="assets/img/aptekamos/aptekamos2.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_2"
 									 title="" />
 								</picture>
 								<picture>
-									<source type="image/webp" srcset="assets/img/insight/insightsm.webp" />
-									<source type="image/png" srcset="assets/img/insight/insightsm.png" />
-									<img src="assets/img/insight/insightsm.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_sm"
+									<source type="image/webp" srcset="assets/img/aptekamos/aptekamos3.webp" />
+									<source type="image/png" srcset="assets/img/aptekamos/aptekamos3.png" />
+									<img src="assets/img/aptekamos/aptekamos3.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_3"
+									 title="" />
+								</picture>
+								<picture>
+									<source type="image/webp" srcset="assets/img/aptekamos/aptekamos4.webp" />
+									<source type="image/png" srcset="assets/img/aptekamos/aptekamos4.png" />
+									<img src="assets/img/aptekamos/aptekamos4.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_4"
 									 title="" />
 								</picture>
 							</div>
@@ -319,9 +317,9 @@
 					Phasellus luctus sodales ipsum at cursus. Curabitur laoreet nisi nec velit interdum consequat eu in purus. Duis lobortis ex et felis imperdiet fringilla.</p>
 					<div class="used">
 						<ul class="used__list">
-							<li class="used__item">Vanila JS</li>
-							<li class="used__item">HTML</li>
 							<li class="used__item">Cordova</li>
+							<li class="used__item">Vanila JS</li>
+							<li class="used__item">jQuery</li>
 							<li class="used__item">Webix</li>
 							<li class="used__item">Jenkins</li>
 						</ul>
@@ -333,7 +331,7 @@
 					<!-- 502  x  813 -->
 					<div class="portfolio-item">
 						<div class="portfolio-item__wrapper">
-							<div class="portfolio-item__screenshots">
+							<div id="screenshots-atwinta" class="portfolio-item__screenshots">
 								<picture>
 									<source type="image/webp" srcset="assets/img/atwinta/atwintalg.webp" />
 									<source type="image/png" srcset="assets/img/atwinta/atwintalg.png" />
@@ -379,7 +377,7 @@
 					<div class="portfolio-title">
 						<div class="portfolio-title__wrapper">
 							<h3 class="portfolio-title__text">Atwinta</h3>
-							<h5 class="portfolio-title__date">2019.3 and 2019.12</h5>
+							<h5 class="portfolio-title__date">2019.3 & 2019.12</h5>
 						</div>
 						<div class="portfolio-title__buttons">
 							<a href="https://barklim.github.io/atw-market/" target="_blank" class="portfolio-title__view">First</a>
@@ -400,54 +398,6 @@
 						</ul>
 					</div>
 					<div class="border"></div>
-
-					<div class="portfolio-item">
-						<div class="portfolio-item__wrapper">
-							<div class="portfolio-item__screenshots">
-								<picture>
-									<source type="image/webp" srcset="assets/img/povernenia/povernenialg.webp" />
-									<source type="image/png" srcset="assets/img/povernenia/povernenialg.png" />
-									<img src="assets/img/povernenia/povernenialg.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_lg"
-									 title="" />
-								</picture>
-								<picture>
-									<source type="image/webp" srcset="assets/img/povernenia/poverneniamd.webp" />
-									<source type="image/png" srcset="assets/img/povernenia/poverneniamd.png" />
-									<img src="assets/img/povernenia/poverneniamd.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_md"
-									 title="" />
-								</picture>
-								<picture>
-									<source type="image/webp" srcset="assets/img/povernenia/poverneniasm.webp" />
-									<source type="image/png" srcset="assets/img/povernenia/poverneniasm.png" />
-									<img src="assets/img/povernenia/poverneniasm.png" alt="desctop-screenshot" class="portfolio-item__img portfolio-item__img_sm"
-									 title="" />
-								</picture>
-							</div>
-						</div>
-					</div>
-					<div class="portfolio-title">
-						<div class="portfolio-title__wrapper">
-							<h3 class="portfolio-title__text">Povern</h3>
-							<h5 class="portfolio-title__date"> 2018.12.12</h5>
-						</div>
-						<div class="portfolio-title__buttons">
-							<a href="assets/files/povernennia/index.html" target="_blank" class="portfolio-title__view">View</a>
-							<a href="https://github.com/Barklim/Povernennia" target="_blank" class="portfolio-title__code">Code</a>
-						</div>
-					</div>
-					<p class="portfolio-descriprion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nisi urna, tincidunt ac tortor sed, semper viverra nibh. Phasellus non pellentesque ante. Sed eget ex nunc. Nunc luctus lacinia ex vitae euismod. Maecenas nec risus ac leo cursus feugiat. Suspendisse feugiat sollicitudin enim, ac ultrices lacus. Nulla facilisi. Suspendisse id est eu nisl dignissim interdum.
-					Phasellus luctus sodales ipsum at cursus. Curabitur laoreet nisi nec velit interdum consequat eu in purus. Duis lobortis ex et felis imperdiet fringilla.</p>
-					<div
-					 class="used">
-						<ul class="used__list">
-							<li class="used__item">JavaScript</li>
-							<li class="used__item">jQuery</li>
-							<li class="used__item">Bootstrap</li>
-							<li class="used__item">SASS</li>
-							<li class="used__item">HTML</li>
-						</ul>
-				</div>
-				<div class="border"></div>
 
 				<div class="portfolio-item">
 					<div class="portfolio-item__wrapper">
@@ -536,9 +486,40 @@
 				<div class="footer__wrapper">
 					<p class="footer__copyright">@ KLIMENT BARKALOV 2021</p>
 				</div>
+
+				<div id="myModal" class="modal">
+					<span class="close">&times;</span>
+					<div class="modal-content">
+						<div id="swiper" class="swiper-section">
+							<div class="swiper-container">
+							  <div class="swiper-wrapper">
+							    <div class="swiper-slide">
+						            <img class="slideImg" src="assets/img/aptekamos/aptekamos1.webp"/>
+							    </div>
+							    <div class="swiper-slide">
+						            <img class="slideImg" src="assets/img/aptekamos/aptekamos2.webp"/>
+							    </div>
+							    <div class="swiper-slide">
+						            <img class="slideImg" src="assets/img/aptekamos/aptekamos3.webp"/>
+							    </div>
+							    <div class="swiper-slide">
+						            <img class="slideImg" src="assets/img/aptekamos/aptekamos4.webp"/>
+							    </div>
+							  </div>
+							  <div class="swiper-pagination"></div>
+							  <div class="swiper-button-prev"></div>
+							  <div class="swiper-button-next"></div>
+							  <!-- If we need scrollbar -->
+							  <!-- <div class="swiper-scrollbar"></div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</footer>
 		<script src="assets/scripts/app.min.js"></script>
+		<script src="assets/scripts/modal.js"></script>
 	</body>
 
 </html>
