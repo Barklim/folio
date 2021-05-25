@@ -746,6 +746,11 @@ table {
   right: 0.5%;
   z-index: 3;
 }
+.portfolio-item__img_sm2 {
+  width: 24%;
+  right: 0.5%;
+  z-index: 3;
+}
 
 .portfolio-item__img_1 {
   width: 18%;
@@ -962,6 +967,13 @@ table {
   display: block;
   margin-top: 15px;
   margin-bottom: 25px;
+  font-size: 16px;
+  text-align: justify;
+  color: #fafafa;
+}
+.portfolio-descriprion-sub {
+  display: block;
+  margin-left: 15px;
   font-size: 16px;
   text-align: justify;
   color: #fafafa;
