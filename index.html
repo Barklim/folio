@@ -47,8 +47,10 @@
 		<link rel="preload" href="assets/fonts/RalewayBold/RalewayBold.woff" as="font" type="font/woff" crossorigin>
 		<link href="assets/styles/app.min.css" rel="stylesheet">
 		<!-- swiper -->
-		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()"/>
+		<meta property="og:title" content="Barkalov Kliment: portfolio"/>
+		<link href="assets/styles/swiper-bundle.css" rel="stylesheet" />
+		<link href="assets/styles/swiper-bundle.min.css" rel="stylesheet" />
 		<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	</head>
@@ -326,9 +328,6 @@
 					</div>
 					<div class="border"></div>
 
-					<!-- 1192  x  753 -->
-					<!-- 2562  x  1329 -->
-					<!-- 502  x  813 -->
 					<div class="portfolio-item">
 						<div class="portfolio-item__wrapper">
 							<div id="screenshots-atwinta" class="portfolio-item__screenshots">
@@ -352,7 +351,7 @@
 								</picture>
 							</div>
 
-							<div class="portfolio-item__screenshots">
+							<div id="screenshots-atwinta2" class="portfolio-item__screenshots">
 								<picture>
 									<source type="image/webp" srcset="assets/img/atwinta/atwintalg2.webp" />
 									<source type="image/png" srcset="assets/img/atwinta/atwintalg2.png" />
@@ -493,24 +492,29 @@
 						<div id="swiper" class="swiper-section">
 							<div class="swiper-container">
 							  <div class="swiper-wrapper">
+							  </div>
+							  <div class="swiper-pagination"></div>
+							  <div class="swiper-button-prev"></div>
+							  <div class="swiper-button-next"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="myModal1" class="modal">
+					<span class="close1">&times;</span>
+					<div class="modal-content">
+						<div id="swiper1" class="swiper-section">
+							<div class="swiper-container1">
+							  <div class="swiper-wrapper">
 							    <div class="swiper-slide">
-						            <img class="slideImg" src="assets/img/aptekamos/aptekamos1.webp"/>
-							    </div>
-							    <div class="swiper-slide">
-						            <img class="slideImg" src="assets/img/aptekamos/aptekamos2.webp"/>
-							    </div>
-							    <div class="swiper-slide">
-						            <img class="slideImg" src="assets/img/aptekamos/aptekamos3.webp"/>
-							    </div>
-							    <div class="swiper-slide">
-						            <img class="slideImg" src="assets/img/aptekamos/aptekamos4.webp"/>
+						            <span>slide1</span>
 							    </div>
 							  </div>
 							  <div class="swiper-pagination"></div>
 							  <div class="swiper-button-prev"></div>
 							  <div class="swiper-button-next"></div>
 							  <!-- If we need scrollbar -->
-							  <!-- <div class="swiper-scrollbar"></div> -->
+							  <div class="swiper-scrollbar"></div>
 							</div>
 						</div>
 					</div>
