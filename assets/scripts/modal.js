@@ -6,65 +6,65 @@ console.log('%c ', 'font-size:600px; line-height:280px; background:url(https://i
 // 460 x 996 for swiper (920 x 1992)
 const noImage = '<div class="swiper-slide"><img class="slideImg" src="assets/img/noImage.webp"/></div>';
 
-const aptekamosTemp1 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/aptekamos/aptekamos1.webp"/></div>';
-const aptekamosTemp2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/aptekamos/aptekamos2.webp"/></div>';
-const aptekamosTemp3 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/aptekamos/aptekamos3.webp"/></div>';
-const aptekamosTemp4 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/aptekamos/aptekamos4.webp"/></div>';
+const aptekamosTemp1 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/aptekamos/aptekamos1.webp"/></div>';
+const aptekamosTemp2 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/aptekamos/aptekamos2.webp"/></div>';
+const aptekamosTemp3 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/aptekamos/aptekamos3.webp"/></div>';
+const aptekamosTemp4 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/aptekamos/aptekamos4.webp"/></div>';
 
-const atwintaTemp_lg = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintalg.webp"/></div>';
-const atwintaTemp_sm = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintasm.webp"/></div>';
-const atwintaTempMoblie_sm = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintasmSw.webp"/></div>';
+const atwintaTemp_lg = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/atwinta/atwintalg.webp"/></div>';
+const atwintaTemp_sm = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/atwinta/atwintasm.webp"/></div>';
+const atwintaTempMoblie_sm = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/atwinta/atwintasmSw.webp"/></div>';
 
-const atwintaTemp_lg2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintalg2.webp"/></div>';
-const atwintaTemp_md2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintamd2.webp"/></div>';
-const atwintaTemp_sm2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintasm2.webp"/></div>';
-const atwintaTempMoblie_sm2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintasm2.webp"/></div>';
+const atwintaTemp_lg2 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/atwinta/atwintalg2.webp"/></div>';
+const atwintaTemp_md2 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/atwinta/atwintamd2.webp"/></div>';
+const atwintaTemp_sm2 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/atwinta/atwintasm2.webp"/></div>';
+const atwintaTempMoblie_sm2 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/atwinta/atwintasm2.webp"/></div>';
 
 // const genomusTemplater_lg = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomustemplg.webp"/></div>';
 // const genomusTemplater_md = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomustempmd.webp"/></div>';
 // const genomusTemplater_sm = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomustempsm.webp"/></div>';
-const genomusTemplater1 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusTemplater1.webp"/></div>';
-const genomusTemplater2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusTemplater2.webp"/></div>';
-const genomusTemplater3 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusTemplater3.webp"/></div>';
-const genomusTemplater4 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusTemplater4.webp"/></div>';
-const genomusTemplater5 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusTemplater5.webp"/></div>';
-const genomusTemplater6 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusTemplater6.webp"/></div>';
-const genomusTemplater7 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusTemplater7.webp"/></div>';
+const genomusTemplater1 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusTemplater1.webp"/></div>';
+const genomusTemplater2 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusTemplater2.webp"/></div>';
+const genomusTemplater3 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusTemplater3.webp"/></div>';
+const genomusTemplater4 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusTemplater4.webp"/></div>';
+const genomusTemplater5 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusTemplater5.webp"/></div>';
+const genomusTemplater6 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusTemplater6.webp"/></div>';
+const genomusTemplater7 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusTemplater7.webp"/></div>';
 
 // const genomusTemp_lg = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomuslg.webp"/></div>';
 // const genomusTemp_md = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusmd.webp"/></div>';
 // const genomusTemp_sm = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomussm.webp"/></div>';
-const genomusTemp1 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomus1.webp"/></div>';
-const genomusTemp2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomus2.webp"/></div>';
-const genomusTemp3 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomus3.webp"/></div>';
-const genomusTemp4 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomus4.webp"/></div>';
-const genomusTemp5 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomus5.webp"/></div>';
-const genomusTemp6 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomus6.webp"/></div>';
-const genomusTemp7 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomus7.webp"/></div>';
-const genomusTemp8 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomus8.webp"/></div>';
-const genomusTemp9 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomus9.webp"/></div>';
-const genomusTemp10 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomus10.webp"/></div>';
-const genomusTemp11 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomus11.webp"/></div>';
+const genomusTemp1 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomus1.webp"/></div>';
+const genomusTemp2 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomus2.webp"/></div>';
+const genomusTemp3 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomus3.webp"/></div>';
+const genomusTemp4 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomus4.webp"/></div>';
+const genomusTemp5 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomus5.webp"/></div>';
+const genomusTemp6 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomus6.webp"/></div>';
+const genomusTemp7 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomus7.webp"/></div>';
+const genomusTemp8 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomus8.webp"/></div>';
+const genomusTemp9 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomus9.webp"/></div>';
+const genomusTemp10 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomus10.webp"/></div>';
+const genomusTemp11 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomus11.webp"/></div>';
 
-const genomusAdminTemp1 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusAdmin1.webp"/></div>';
-const genomusAdminTemp2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusAdmin2.webp"/></div>';
-const genomusAdminTemp3 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusAdmin3.webp"/></div>';
-const genomusAdminTemp4 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusAdmin4.webp"/></div>';
-const genomusAdminTemp5 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusAdmin5.webp"/></div>';
-const genomusAdminTemp6 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusAdmin6.webp"/></div>';
-const genomusAdminTemp7 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusAdmin7.webp"/></div>';
+const genomusAdminTemp1 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusAdmin1.webp"/></div>';
+const genomusAdminTemp2 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusAdmin2.webp"/></div>';
+const genomusAdminTemp3 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusAdmin3.webp"/></div>';
+const genomusAdminTemp4 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusAdmin4.webp"/></div>';
+const genomusAdminTemp5 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusAdmin5.webp"/></div>';
+const genomusAdminTemp6 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusAdmin6.webp"/></div>';
+const genomusAdminTemp7 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusAdmin7.webp"/></div>';
 
-const genomusTempMobile1 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusMobile1.webp"/></div>';
-const genomusTempMobile2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusMobile2.webp"/></div>';
-const genomusTempMobile3 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusMobile3.webp"/></div>';
-const genomusTempMobile4 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusMobile4.webp"/></div>';
-const genomusTempMobile5 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusMobile5.webp"/></div>';
-const genomusTempMobile6 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusMobile6.webp"/></div>';
-const genomusTempMobile7 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusMobile7.webp"/></div>';
-const genomusTempMobile8 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusMobile8.webp"/></div>';
-const genomusTempMobile9 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusMobile9.webp"/></div>';
-const genomusTempMobile10 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusMobile10.webp"/></div>';
-const genomusTempMobile11 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusMobile11.webp"/></div>';
+const genomusTempMobile1 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusMobile1.webp"/></div>';
+const genomusTempMobile2 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusMobile2.webp"/></div>';
+const genomusTempMobile3 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusMobile3.webp"/></div>';
+const genomusTempMobile4 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusMobile4.webp"/></div>';
+const genomusTempMobile5 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusMobile5.webp"/></div>';
+const genomusTempMobile6 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusMobile6.webp"/></div>';
+const genomusTempMobile7 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusMobile7.webp"/></div>';
+const genomusTempMobile8 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusMobile8.webp"/></div>';
+const genomusTempMobile9 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusMobile9.webp"/></div>';
+const genomusTempMobile10 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusMobile10.webp"/></div>';
+const genomusTempMobile11 = '<div class="swiper-slide"><img loading="lazy" class="slideImg" src="assets/img/genomus/genomusMobile11.webp"/></div>';
 
 
 const aptekamosArr = [aptekamosTemp1, aptekamosTemp2, aptekamosTemp3, aptekamosTemp4];
