@@ -2,6 +2,8 @@
 
 Tool for create screenshots [screely](https://www.screely.com/)
 
+Compress [image](https://www.iloveimg.com/ru/compress-image)
+
 Convert png to webp [link](https://image.online-convert.com/ru/convert-to-webp)
 
 [photoshop](https://online-fotoshop.ru/)
