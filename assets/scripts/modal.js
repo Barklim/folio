@@ -15,14 +15,19 @@ const atwintaTemp_lg = '<div class="swiper-slide"><img class="slideImg" src="ass
 const atwintaTemp_sm = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintasm.webp"/></div>';
 const atwintaTempMoblie_sm = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintasmSw.webp"/></div>';
 
-const atwintaTemp_lg2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintalg2.webp"/></div>';
-const atwintaTemp_md2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintamd2.webp"/></div>';
-const atwintaTemp_sm2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintasm2.webp"/></div>';
-const atwintaTempMoblie_sm2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintasm2.webp"/></div>';
+const atwintaTempCRM1 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwinta1.webp"/></div>';
+const atwintaTempCRM2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwinta2.webp"/></div>';
+const atwintaTempCRM3 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwinta3.webp"/></div>';
+const atwintaTempCRM4 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwinta4.webp"/></div>';
+const atwintaTempCRM5 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwinta5.webp"/></div>';
+const atwintaTempCRM6 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwinta6.webp"/></div>';
+const atwintaTempCRMMoblie1 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintaMobile1.webp"/></div>';
+const atwintaTempCRMMoblie2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintaMobile2.webp"/></div>';
+const atwintaTempCRMMoblie3 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintaMobile3.webp"/></div>';
+const atwintaTempCRMMoblie4 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintaMobile4.webp"/></div>';
+const atwintaTempCRMMoblie5 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintaMobile5.webp"/></div>';
+const atwintaTempCRMMoblie6 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/atwinta/atwintaMobile6.webp"/></div>';
 
-// const genomusTemplater_lg = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomustemplg.webp"/></div>';
-// const genomusTemplater_md = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomustempmd.webp"/></div>';
-// const genomusTemplater_sm = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomustempsm.webp"/></div>';
 const genomusTemplater1 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusTemplater1.webp"/></div>';
 const genomusTemplater2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusTemplater2.webp"/></div>';
 const genomusTemplater3 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusTemplater3.webp"/></div>';
@@ -31,9 +36,6 @@ const genomusTemplater5 = '<div class="swiper-slide"><img class="slideImg" src="
 const genomusTemplater6 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusTemplater6.webp"/></div>';
 const genomusTemplater7 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusTemplater7.webp"/></div>';
 
-// const genomusTemp_lg = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomuslg.webp"/></div>';
-// const genomusTemp_md = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomusmd.webp"/></div>';
-// const genomusTemp_sm = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomussm.webp"/></div>';
 const genomusTemp1 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomus1.webp"/></div>';
 const genomusTemp2 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomus2.webp"/></div>';
 const genomusTemp3 = '<div class="swiper-slide"><img class="slideImg" src="assets/img/genomus/genomus3.webp"/></div>';
@@ -70,8 +72,8 @@ const genomusTempMobile11 = '<div class="swiper-slide"><img class="slideImg" src
 const aptekamosArr = [aptekamosTemp1, aptekamosTemp2, aptekamosTemp3, aptekamosTemp4];
 const atwintaArr1 = [atwintaTemp_lg, atwintaTemp_sm];
 const atwintaMobileArr1 = [atwintaTempMoblie_sm];
-const atwintaArr2 = [atwintaTemp_lg2, atwintaTemp_md2, atwintaTemp_sm2];
-const atwintaMobileArr2 = [atwintaTempMoblie_sm2, atwintaTemp_sm2];
+const atwintaArr2 = [atwintaTempCRM1, atwintaTempCRM2, atwintaTempCRM3, atwintaTempCRM4, atwintaTempCRM5, atwintaTempCRM6];
+const atwintaMobileArr2 = [atwintaTempCRMMoblie1, atwintaTempCRMMoblie2, atwintaTempCRMMoblie3, atwintaTempCRMMoblie4, atwintaTempCRMMoblie5, atwintaTempCRMMoblie6];
 // const genomusTemplateArr2 = [genomusTemp_lg, genomusTemp_md, genomusTemp_sm];
 const genomusTemplateArr = [genomusTemplater1, genomusTemplater2, genomusTemplater3, genomusTemplater4, genomusTemplater5, genomusTemplater6, genomusTemplater7];
 const genomusTemplateMobileArr = [noImage];

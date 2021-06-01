@@ -889,7 +889,8 @@ table {
 }
 .close,
 .close1 {
-  color: #aaaaaa;
+  /*color: #aaaaaa;*/
+  color: #cc7878;
   font-size: 60px;
   font-weight: bold;
   width: 4%;
