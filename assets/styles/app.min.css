@@ -891,13 +891,16 @@ table {
 .close1 {
   /*color: #aaaaaa;*/
   color: #cc7878;
-  font-size: 60px;
+  font-size: 100px;
   font-weight: bold;
   width: 4%;
   position: fixed;
   /*right: 4%;*/
-  right: 2%;
-  top: 3%;
+  /*right: 2.5%;*/
+  right: 35px !important;
+  /*top: -8%;*/
+  top: 0%;
+  /*top: -40px !important;*/
   z-index: 1001;
 }
 .close:hover,
@@ -933,6 +936,7 @@ table {
   }
   .close,
   .close1 {
+    font-size: 60px;
     width: 7%;
     right: 6%;
     top: 0%;
