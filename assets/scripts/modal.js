@@ -1,5 +1,10 @@
 console.log('%c ', 'font-size:600px; line-height:280px; background:url(https://i.postimg.cc/8kHZmvy3/nof2u4-Xbn-RU-removebg-preview.png) no-repeat;');
 
+var fixModalStateFunc = function (argument) {
+  document.getElementById('myModal').classList.remove('modal-fixstate');
+  document.getElementById('myModal1').classList.remove('modal-fixstate');
+}
+
 // 1192  x  753
 // 2562  x  1329
 // 502  x  813 
@@ -148,6 +153,8 @@ var span = document.getElementsByClassName("close")[0];
 var span1 = document.getElementsByClassName("close1")[0];
 
 scrAptekamos.onclick = function() {
+  fixModalStateFunc();
+
   swiper.removeAllSlides();
 
   aptekamosArr.forEach(function(item, i, arr) {
@@ -156,7 +163,10 @@ scrAptekamos.onclick = function() {
 
   modal.style.display = "block";
 }
+
 scrAtwinta.onclick = function() {
+  fixModalStateFunc();
+
   swiper1.removeAllSlides();
 
   // isMobile?
@@ -173,7 +183,10 @@ scrAtwinta.onclick = function() {
 
   modal1.style.display = "block";
 }
+
 scrAtwinta2.onclick = function() {
+  fixModalStateFunc();
+
   swiper1.removeAllSlides();
 
   if (slidesPerViewVar === 1)
@@ -189,7 +202,10 @@ scrAtwinta2.onclick = function() {
 
   modal1.style.display = "block";
 }
+
 scrGenomusTemplater.onclick = function() {
+  fixModalStateFunc();
+
   swiper1.removeAllSlides();
 
   if (slidesPerViewVar === 1)
@@ -205,7 +221,10 @@ scrGenomusTemplater.onclick = function() {
 
   modal1.style.display = "block";
 }
+
 scrGenomus.onclick = function() {
+  fixModalStateFunc();
+
   swiper1.removeAllSlides();
 
   if (slidesPerViewVar === 1)
@@ -221,7 +240,10 @@ scrGenomus.onclick = function() {
 
   modal1.style.display = "block";
 }
+
 scrGenomusAdmin.onclick = function() {
+  fixModalStateFunc();
+
   swiper1.removeAllSlides();
 
   if (slidesPerViewVar === 1)

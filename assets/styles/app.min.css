@@ -870,6 +870,9 @@ table {
   height: 300px;
   /*background: white;*/
 }
+.modal-fixstate {
+  top: 100vh !important;
+}
 .modal { 
   position: fixed; /* Stay in place */
   z-index: 1000; /* Sit on top */
